@@ -45,7 +45,17 @@ Recently, I had the opportunity to work as a designer at the Belarusian company 
 **Solution:**
 
 
-
+```
+function spinWords(string) {
+  let wordsArray = string.split(" ");
+  for (let i = 0; i < wordsArray.length; i++) {
+    if (wordsArray[i].length >= 5) {
+      wordsArray[i] = wordsArray[i].split("").reverse().join("");
+    }
+  }
+return wordsArray.join(" ");  
+}
+```
 
 
 ---
