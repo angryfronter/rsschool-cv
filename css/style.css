@@ -1,0 +1,6 @@
+.myphoto{
+display: flex;
+width: 268px;
+height: 350px;
+border-radius: 10% 25% 10% 25%;
+}
